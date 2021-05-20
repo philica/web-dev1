@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src=
+"https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+<script src="behavior.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.row{
+
+
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>jscript</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect"  href="https://fonts.gstatic.com">
+	<link  href="https://fonts.googleapis.com/css2?
+	family=poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+ <div class="hero4">
+ <head>
+<nav>
+	<img src="https://i.ibb.co/1z3hR3g/t.png" alt="t" border="0">
+
+
+  <h1 style="font-size:70px;">java<br>script</h1>
+
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li><a href="">TWEETS</a></li>
+		<li><a href="#">INDEX</a></li>
+		<li><a href="">HTML</a></li>
+		<li><a href="">CSS</a></li>
+		<li><a href="">JAVASCRIPT</a></li>
+	</ul>
+	<a href="https://www.w3schools.com/" class="btn" target="blank">Get a course</a>
+</nav>
+</head>
+
+
+
+<!-- row goes here -->
+
+
+
+<div class="row">
+  <div class="column side">
+    <h2>HISTORY</h2>
+    <br>
+    <p>In November 1996, Netscape submitted JavaScript to ECMA International, as the starting point for a standard specification that all browser vendors could conform to. This led to the official release of the first ECMAScript language specification in June 1997.
+
+The standards process continued for a few years, with the release of ECMAScript 2 in June 1998 and ECMAScript 3 in December 1999. Work on ECMAScript 4 began in 2000.
+
+Meanwhile, Microsoft gained an increasingly dominant position in the browser market. By the early 2000s, Internet Explorer's market share reached 95%.[20] This meant that JScript became the de facto standard for client-side scripting on the Web.
+
+Microsoft initially participated in the standards process and implemented some proposals in its JScript language, but eventually it stopped collaborating on ECMA work. Thus ECMAScript 4 was mothballed. 
+
+
+
+
+</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>TRY HERE</h2>
+    <br>
+    <body style="text-align:center;">
+      
+    
+    
+      
+    <div class="box">
+          
+<img src="https://i.ibb.co/Qkrb1hV/images.png" alt="images" border="0" id="geeks" GFG="250">  
+  
+            
+    </div>
+    
+      
+    <button type="button" onclick="zoomin()">
+        Zoom-In
+    </button>
+      
+    <button type="button" onclick="zoomout()"> 
+        Zoom-Out
+    </button>
+      
+    <script type="text/javascript">
+        function zoomin() {
+            var GFG = document.getElementById("geeks");
+            var currWidth = GFG.clientWidth;
+            GFG.style.width = (currWidth + 100) + "px";
+        }
+          
+        function zoomout() {
+            var GFG = document.getElementById("geeks");
+            var currWidth = GFG.clientWidth;
+            GFG.style.width = (currWidth - 100) + "px";
+        }
+    </script>
+</body>
+</p>
+  </div>
+  
+  <div class="column side">
+    <h2>AUDIENCE</h2>
+    <br>
+     <p>In November 1996, Netscape submitted JavaScript to ECMA International, as the starting point for a standard specification that all browser vendors could conform to. This led to the official release of the first ECMAScript language specification in June 1997.
+
+The standards process continued for a few years, with the release of ECMAScript 2 in June 1998 and ECMAScript 3 in December 1999. Work on ECMAScript 4 began in 2000.
+
+Meanwhile, Microsoft gained an increasingly dominant position in the browser market. By the early 2000s, Internet Explorer's market share reached 95%.[20] This meant that JScript became the de facto standard for client-side scripting on the Web.
+
+Microsoft initially participated in the standards process and implemented some proposals in its JScript language, but eventually it stopped collaborating on ECMA work. Thus ECMAScript 4 was mothballed. 
+
+
+
+
+</p>
+  
+  </div>
+</div>
+
+
+<!-- new row -->
+
+
+
+
+</div>
+
+
+
+
+<footer id="foot1">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your share button code -->
+<div class="fb-share-button" 
+data-href="https://www.your-domain.com/your-page.html" 
+data-layout="button_count">
+</div>
+	<br/>
+
+ <p align="center">Made by Fikremariam Getu for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a></p>
+</footer>
+
+
+
+
+
+
+</body>
+</html>

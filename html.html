@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.row{
+
+
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>html</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect"  href="https://fonts.gstatic.com">
+	<link  href="https://fonts.googleapis.com/css2?
+	family=poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+ <div class="hero2">
+ <head>
+<nav>
+	<img src="https://i.ibb.co/QHFTL0L/index.png" alt="index" border="0">
+	 <h1 style="font-size:100px;">HTML</h1>
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li><a href="">TWEETS</a></li>
+		<li><a href="#">INDEX</a></li>
+		<li><a href="">HTML</a></li>
+		<li><a href="">CSS</a></li>
+		<li><a href="">JAVASCRIPT</a></li>
+	</ul>
+	<a href="https://www.w3schools.com/" class="btn" target="blank">Get a course</a>
+</nav>
+</head>
+
+
+
+<!-- row goes here -->
+
+
+
+<div class="row">
+  <div class="column side">
+    <h2>HISTORY</h2>
+    <p>HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in 1989. It stands for Hyper Text Markup Language.
+
+Hypertext means that the document contains links that allow the reader to jump to other places in the document or to another document altogether. The latest version is known as HTML5.
+
+A Markup Language is a way that computers speak to each other to control how text is processed and presented. To do this HTML uses two things: tags and attributes.The scope of this specification is not to describe an entire operating system. In particular, hardware configuration software, image manipulation tools
+
+
+</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>WHAT IS IT ?</h2>
+    <p>Okay, so this is the only bit of mandatory theory. In order to begin to write HTML, it helps if you know what you are writing.
+
+HTML is the language in which most websites are written. HTML is used to create pages and make them functional.
+
+The code used to make them visually appealing is known as CSS and we shall focus on this in a later tutorial. For now, we will focus on teaching you how to build rather than design.The scope of this specification is not to describe an entire operating system. In particular, hardware configuration software, image manipulation tools, and applications that users would be expected to use with high-end workstations on a daily basis are out of scope. In terms of applications, this specification is targeted specifically at applications that would be expected to be used by users on an occasional basis
+
+
+</p>
+  </div>
+  
+  <div class="column side">
+    <h2>AUDIENCE</h2>
+    <p>This section is non-normative.
+
+This specification is intended for authors of documents and scripts that use the features defined in this specification, implementers of tools that operate on pages that use the features defined in this specification, and individuals wishing to establish the correctness of documents or implementations with respect to the requirements of this specification.
+
+This document is probably not suited to readers who do not already have at least a passing familiarity with web technologies, as in places it sacrifices clarity for precision, and brevity for completeness. More approachable tutorials and authoring guides can provide a gentler introduction to the topic.
+</p>
+  </div>
+</div>
+
+
+<!-- new row -->
+
+
+
+
+</div>
+
+
+
+
+<footer id="foot1">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your share button code -->
+<div class="fb-share-button" 
+data-href="https://www.your-domain.com/your-page.html" 
+data-layout="button_count">
+</div>
+	<br/>
+ <p align="center">Made by Fikremariam Getu for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a></p>
+</footer>
+
+
+
+
+
+
+</body>
+</html>

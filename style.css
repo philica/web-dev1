@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+}
+
+body{
+  background: #d5d5b1;
+}
+.hero{
+width: 100%;
+min-height: 100vh;
+background:linear-gradient(45deg,#a700ff,#4d19db);
+padding-left: 0%;
+padding-right: 0%
+box-sizing: border-box;
+color:#fff;
+position: relative;
+z-index: 1;
+}
+
+.fb-share-button{
+margin-top:0.5%;
+margin-left:30%;}
+
+.content__main {
+  width: 90%;
+  max-width: 600px;
+  background: #dfdfdf;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.content__main img {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.content__main:hover {
+  cursor: zoom-in;
+}
+.tt{
+	padding-left: 3%;
+	padding-right: 20%;
+
+
+}
+
+
+.hero1{
+width: 100%;
+min-height: 100vh;
+background:linear-gradient(45deg,#33C1FF,#33C1FF);
+padding-left: 0%;
+padding-right: 0%
+box-sizing: border-box;
+color:#fff;
+position: relative;
+z-index: 1;
+}
+
+.hero2{
+width: 100%;
+min-height: 100vh;
+background:linear-gradient(45deg,#1a8cff,#001a4d);
+padding-left: 0%;
+padding-right: 0%
+box-sizing: border-box;
+color:#fff;
+position: relative;
+z-index: 1;
+}
+
+.hero3{
+width: 100%;
+min-height: 100vh;
+background:linear-gradient(45deg,#3366ff,#1a0033);
+padding-left: 0%;
+padding-right: 0%
+box-sizing: border-box;
+color:#fff;
+position: relative;
+z-index: 1;
+}
+
+.hero4{
+width: 100%;
+min-height: 100vh;
+background:linear-gradient(45deg,#331100,#3366ff);
+padding-left: 0%;
+padding-right: 0%
+box-sizing: border-box;
+color:#fff;
+position: relative;
+z-index: 1;
+}
+
+
+
+.column {
+  
+  max-width: 500px;
+  height: 5px;
+  background-color: none;
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
+
+
+nav{
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.logoindex{
+width:150px;
+margin-left: 50px;
+}
+
+.logotweet{
+width:150px;
+margin-left: 50px;
+}
+nav ul{
+
+	flex: 1;
+	text-align:right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin:0 15px; 
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+.btn{
+	border: 2px solid #fff;
+	padding: 6px 25px;
+	border-radius: 30px;
+	margin-left: 30px;
+}
+
+.btnu{
+	border: 2px solid black;
+	padding: 6px 25px;
+	border-radius: 30px;
+	margin-left: 30px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10%;
+	justify-content: space-between;
+}
+
+
+.col-1{
+flex-basis: 40%;
+min-width: 300px;
+margin-bottom: 30px;
+}
+.col-2{
+flex-basis: 55%;
+min-width: 300px;
+margin-bottom: 30px;
+}
+
+.col-1 img{
+	width: 97%;
+	margin-left: 30px;
+	margin-top: -60px;
+    position:relative;
+
+}
+
+.col-2 h1{
+	font-size: 62px;
+	font-weight: 600;
+
+}
+
+span{
+	color: yellow
+}
+
+.col-2 p{
+	margin: 10px 0 50px;
+	 max-width:580;
+}
+
+.col-2 .btn{
+	margin-left: 0;
+	margin-right: 30px;
+	background: #fff;
+	color: #4d19db;
+	font-weight: 500; 
+}
+
+#footer{
+ 			background-color: black;
+ 			position: relative;
+ 			height: 50px;
+ 			margin-top:0px;
+ 			padding-top: 0px;
+ 			color: white;
+ 			clear: both; 
+
+ 		}
+
+
+ #foot{
+ 			background-color: black;
+ 			position: relative;
+ 			height: 50px;
+ 			margin-top:510px;
+ 			padding-top: 0px;
+ 			color: white;
+ 			clear: both; 
+
+ 		}
+
+  #foot1{
+ 			background-color: black;
+ 			position: relative;
+ 			height: 50px;
+ 			margin-top:20px;
+ 			padding-top: 0px;
+ 			color: white;
+ 			clear: both; 
+
+ 		}
+
+    #foot3{
+      background-color: black;
+      position: relative;
+      height: 50px;
+      margin-top:500px;
+      padding-top: px;
+      color: white;
+      clear: both; 
+
+    }
+
+
+/*style for index*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
